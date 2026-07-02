@@ -1,0 +1,40 @@
+# ========================
+# Python & Environment
+# ========================
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+
+# ========================
+# dbt (Data Build Tool)
+# ========================
+target/
+dbt_packages/
+logs/
+dbt-test-results/
+
+# ========================
+# Data & Logs
+# ========================
+*.log
+*.csv
+*.json
+*.parquet
+*.db
+*.sqlite
+postgres_data/
+kafka_data/
+
+# ========================
+# IDE & System Files
+# ========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
